@@ -1,35 +1,101 @@
-* {
-	font-family: 'Source Serif Pro', Georgia, Times New Roman, serif;
-	font-size: 1.05em;
+.pure-g [class*=pure-u] {
+    font-family: 'Source Serif Pro', Georgia, Times New Roman, serif;
 }
 
 body {
-	padding:  0.3em 0.75em;
-	background: rgb(255, 255, 255);
-	color: rgb(55, 55, 55);
+    background: rgb(255, 255, 255);
+    color: rgb(55, 55, 55);
+}
+
+p {
+    font-size: 1.1em;
+}
+
+img {
+    display: block;
 }
 
 h1, h2, h3 {
-	font-family: 'Source Sans Pro', Arial, sans-serif;
-	font-weight: 600;
-	color: rgb(196, 29, 29);
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(196, 29, 29);
 }
 
 a {
-	color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
-.content {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	padding: 0 0.5em 0 0;
+.header, .content, .sidebar, .footer {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 1em;
+}
+
+.header {
+    border-bottom: 1px solid rgb(221, 221, 221);
 }
 
 .sidebar {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	background: rgb(240, 240, 240);
-	padding: 0 0.5em;
+    background: rgb(240, 240, 240);
+}
+
+.footer {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.footer p {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    text-align: right;
+    margin: 1.8em 0;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.menu li+li {
+    padding-left: 1em;
+}
+
+.menu a {
+    padding: 0;
+}
+
+.menu a:hover {
+    background: none;
+    text-decoration: underline;
+}
+
+.meetings {
+    margin: 1em 0 1.5em;
+    width: 100%;
+}
+
+.meetings th {
+    text-align: left;
+}
+
+@media screen and (max-width: 35.5em) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 64em) {
+    .menu {
+        text-align: left;
+        margin: 0 0 1.5em;
+    }
 }
