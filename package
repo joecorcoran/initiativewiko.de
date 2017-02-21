@@ -1,0 +1,3 @@
+#!/bin/sh
+
+hugo && tar -zcvf initiativewiko.de.tar.gz -C ./public .

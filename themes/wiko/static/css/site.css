@@ -1,0 +1,35 @@
+* {
+	font-family: 'Source Serif Pro', Georgia, Times New Roman, serif;
+	font-size: 1.05em;
+}
+
+body {
+	padding:  0.3em 0.75em;
+	background: rgb(255, 255, 255);
+	color: rgb(55, 55, 55);
+}
+
+h1, h2, h3 {
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+	font-weight: 600;
+	color: rgb(196, 29, 29);
+}
+
+a {
+	color: rgb(0, 0, 0);
+}
+
+.content {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 0.5em 0 0;
+}
+
+.sidebar {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: rgb(240, 240, 240);
+	padding: 0 0.5em;
+}
