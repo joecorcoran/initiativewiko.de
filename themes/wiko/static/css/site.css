@@ -95,6 +95,28 @@ a {
     h1 {
         font-size: 1.5em;
     }
+
+    .meetings {
+        border: 0;
+        border: 1px solid #CBCBCB;
+    }
+
+    .meetings tr, .meetings th, .meetings td {
+        display: block;
+        border: 0;
+    }
+
+    .meetings th {
+        background: rgb(240, 240, 240);
+    }
+
+    .meetings tr {
+        border-bottom: 1px solid #CBCBCB;
+    }
+
+    .meetings tr:last-child {
+        border: 0;
+    }
 }
 
 @media screen and (max-width: 63.99em) {
