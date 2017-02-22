@@ -1,6 +1,7 @@
 +++
 title = "Unsere nächsten Treffen"
 description = "Wo und wann wir uns treffen."
+menu = { main = { identifier = "treffen" } }
 +++
 
 Wir treffen uns jeden ersten bzw. zweiten Donnerstag im Monat gemeinsam mit der AG Sprachlehrkräfte in Willkommensklassen im GEW-Haus.

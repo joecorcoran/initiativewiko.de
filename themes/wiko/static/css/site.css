@@ -73,6 +73,10 @@ a {
     padding: 0;
 }
 
+.menu .active {
+    color: rgb(68, 68, 68);
+}
+
 .menu a:hover {
     background: none;
     text-decoration: underline;

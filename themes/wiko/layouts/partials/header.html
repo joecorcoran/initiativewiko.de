@@ -8,8 +8,12 @@
     <div class="pure-u-1 pure-u-lg-2-5">
         <div class="pure-menu pure-menu-horizontal menu">
             <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a href="/" class="pure-menu-link">Start</a></li>
-                <li class="pure-menu-item"><a href="/treffen" class="pure-menu-link">Unsere nächsten Treffen</a></li>
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                <li class="pure-menu-item">
+                    <a href="{{ .URL }}" class="pure-menu-link{{if $currentPage.IsMenuCurrent "main" . }} active{{end}}">{{ .Name }}</a>
+                </li>
+                {{ end }}
             </ul>
         </div>
     </div>
