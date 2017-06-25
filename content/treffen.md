@@ -11,13 +11,8 @@ Eine GEW-Mitgliedschaft ist keine Teilnahmevoraussetzung. Jede/r, der in oder mi
 <table class="pure-table pure-table-horizontal meetings">
     <tbody>
         <tr>
-            <th>Donnerstag, 15.6.</th>
-            <td>18-20 Uhr</td>
-            <td><a target="_blank" href="https://goo.gl/maps/XBMvqTAKASp">GEW-Haus, Ahornstraße 5, 10787 Berlin</a></td>
-        </tr>
-        <tr>
             <th>Donnerstag, 6.7.</th>
-            <td>17-19 Uhr</td>
+            <td>18-20 Uhr</td>
             <td><a target="_blank" href="https://goo.gl/maps/XBMvqTAKASp">GEW-Haus, Ahornstraße 5, 10787 Berlin</a></td>
         </tr>
     </tbody>
